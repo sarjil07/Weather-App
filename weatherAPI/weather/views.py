@@ -7,7 +7,7 @@ def index(request):
     message=''
     err_message=''
     messageShow=''
-    url='http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=7cec8a16a014b57f940965c646643c1a'
+    url=#cannot be written due to api secret key issues
     if request.method=="POST":
         cityName=request.POST.get('cityName')
         cityN=City(name=cityName)
